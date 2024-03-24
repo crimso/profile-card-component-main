@@ -106,7 +106,7 @@ textarea:not([rows]) {
 
 body {
     position: relative;
-    overflow: hidden;
+    overflow: clip;
     display: flex;
     flex-direction: column;
     justify-content: center;
