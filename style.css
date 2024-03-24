@@ -230,8 +230,8 @@ section {
 
 /**---Media---*/
 
-@media (max-width: 320px) {
-    body {
-        overflow: hidden;
+@media (min-width: 320px) {
+    html {
+        overflow: clip;
     }
 }
