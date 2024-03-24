@@ -227,3 +227,11 @@ section {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+/**---Media---*/
+
+@media (max-width: 320px) {
+    body {
+        overflow: hidden;
+    }
+}
